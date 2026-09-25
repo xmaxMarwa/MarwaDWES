@@ -16,7 +16,7 @@ echo"Si el usuario es administrador o voluntario";
 echo"Si el usuario no está logueado";
  var_dump( ! $logueado);
  //Si el usuario es administrador o voluntario, pero no las dos cosas.
- echo"Si el usuario es administrador o voluntario, pero no las dos cosas";
+ echo"Si el usuario es administrador o/y voluntario, pero no las dos cosas";
 var_dump ($administrador xor $voluntario); 
 
 ?>
